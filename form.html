@@ -12,15 +12,15 @@
     <div class="container">
         <div class="contact-box">
             <div class="left"></div>
-            <div class="right">
+            <form class="right" method="post" action="send-mail.php" >
                 <h2>Contact Us</h2>
-                <input type="text" class="field" placeholder="Enter Your Name">
-                <input type="text" class="field" placeholder="Enter Your Email">
-                <input type="text" class="field" placeholder="Enter Your Phone Number">
-                <textarea placeholder="message" class="field"></textarea>
+                <input type="text" name="name" class="field" placeholder="Enter Your Name">
+                <input type="text" name="email" class="field" placeholder="Enter Your Email">
+                <input type="text" name="subject" class="field" placeholder="Enter Your Subject">
+                <textarea placeholder="message" name="message" class="field"></textarea>
 
                     <button class="btn">Send</button>
-            </div>
+            </form>
         </div>
     </div>
 
